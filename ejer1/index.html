@@ -3,27 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Ejercicio 1 - DOM</title>
+  <script src="script.js"></script>
 </head>
 <body>
-  <h2>Ejercicio 1 - Seleccionar y Mostrar Información</h2>
+  <h2> Seleccionar y Mostrar Información</h2>
   
   <div id="info">Este es un div con información</div>
   <p class="detalle">Detalle original</p>
   <p>Otro párrafo</p>
-  <a href="#">Un enlace</a>
-
-  <script>
-    // Seleccionar por ID
-    const divInfo = document.getElementById("info");
-    console.log("Texto del div info:", divInfo.textContent);
-
-    // Seleccionar por clase con querySelector
-    const detalle = document.querySelector(".detalle");
-    detalle.textContent = "Este es un detalle modificado";
-
-    // Seleccionar todos los párrafos
-    const parrafos = document.querySelectorAll("p");
-    parrafos.forEach(p => p.style.backgroundColor = "lightblue");
-  </script>
+  <a href="https://www.instagram.com/deportivocalioficial/?hl=es-la">Click al enlace</a>
 </body>
 </html>
