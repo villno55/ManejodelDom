@@ -12,20 +12,6 @@
   <p>Primer párrafo existente</p>
   <p>Otro párrafo</p>
 
-  <script>
-    // Crear un nuevo párrafo
-    const nuevoParrafo = document.createElement("p");
-    nuevoParrafo.textContent = "Este es un párrafo creado dinámicamente";
-    document.body.appendChild(nuevoParrafo);
-
-    // Eliminar el primer párrafo con el botón
-    const btnEliminar = document.querySelector("#eliminar");
-    btnEliminar.addEventListener("click", () => {
-      const primerP = document.querySelector("p");
-      if (primerP) {
-        primerP.remove();
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
