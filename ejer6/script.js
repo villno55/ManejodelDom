@@ -3,7 +3,10 @@ const input = document.getElementById("inputTarea");
     const lista = document.getElementById("listaTareas");
 
     btnAgregar.addEventListener("click", () => {
-      if (input.value.trim() === "") 
+      if (input.value.trim() === "") {
+    alert("Escribe una tarea antes de agregar.");
+    return;
+      }
         
       const divTarea = document.createElement("div");
       divTarea.classList.add("tarea");
