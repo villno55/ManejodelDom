@@ -1,29 +1,34 @@
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      padding: 20px;
-    }
-    .tarea {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 8px;
-      margin: 5px 0;
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    .icono {
-      cursor: pointer;
-      font-weight: bold;
-      margin-left: 10px;
-    }
-    .check {
-      color: orange;
-    }
-    .check.realizada {
-      color: green;
-    }
-    .delete {
-      color: red;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.tarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.icono {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.check {
+  color: orange;
+}
+
+.check.realizada {
+  color: green;
+}
+
+.delete {
+  color: red;
+}
